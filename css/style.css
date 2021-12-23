@@ -1,0 +1,47 @@
+* {
+  margin: 0; /* Внешний отступ */
+  padding: 0; /* Внутренний отступ */
+}
+body {
+  background-color: burlywood;
+}
+
+h1 {
+  font-size: 60px;
+  background-color: rgba(0, 255, 0, 0.9);
+}
+
+ul {
+  margin: 20px;
+  padding: 50px;
+  background-color: yellow;
+}
+li {
+  font-size: 20px;
+}
+.cssParagraph {
+  font-size: 20px;
+  font-family: serif;
+  color: #2d527c;
+}
+.ffSerif {
+  font-family: serif;
+}
+
+.ffSansSerif {
+  font-family: sans-serif;
+}
+
+.ffMonospace {
+  font-family: monospace;
+}
+
+.square {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border-radius: 25%;
+  backdrop-filter: blur(5px);
+  box-shadow: 15px 10px 25px rgba(0, 0, 0, 0.3);
+}
